@@ -6,9 +6,9 @@ import uvicorn
 from uuid import UUID
 
 os.environ["USER_AGENT"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-os.environ["DEEPSEEK_API_KEY"] = "sk-99e8b6b0c9d64927885f845cf447d914"
-os.environ["TAVILY_API_KEY"] = "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"
-os.environ["SUNO_API"] = "sk-4743ff86eaed4fa5bcf95282f9b58601"
+os.environ["DEEPSEEK_API_KEY"] = ""
+os.environ["TAVILY_API_KEY"] = ""
+os.environ["SUNO_API"] = ""
 
 
 from fastapi import FastAPI, WebSocket
