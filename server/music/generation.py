@@ -5,7 +5,7 @@ import requests
 import time
 import os
 
-os.environ["SUNO_API"] = "sk-4743ff86eaed4fa5bcf95282f9b58601"
+os.environ["SUNO_API"] = ""
 from dotenv import load_dotenv
 load_dotenv()
 
